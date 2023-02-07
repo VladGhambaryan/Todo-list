@@ -1,0 +1,63 @@
+#globalList {
+margin: 0 auto;
+    width: 30%;
+}
+
+#List {
+
+    height: 250px;
+    /*background-color: black;*/
+    background-image: url('todo.jpg');
+    overflow: auto;
+}
+
+#input {
+    width: 100px;
+    height: 10px;
+}
+
+#items {
+    margin-top: 15px;
+    list-style: none;
+}
+.div:not(:last-child){
+    margin-left: 50px;
+}
+
+
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    /*background-color: white;*/
+}
+
+
+
+.btn{
+
+
+}
+.listItem{
+    display: flex;
+    justify-content: space-between;
+}
+.test{
+    display: flex;
+    justify-content: space-between;
+}
+.clearBtn{
+   width: 70px;
+    height: 20px;
+
+}
+
+
+.addCont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
